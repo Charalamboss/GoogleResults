@@ -1,0 +1,122 @@
+header{
+
+	width:100%;
+	border-bottom: solid black;
+	padding: 1% 0 5% 0;
+	margin: 1px;
+	position: relative;
+	text-align: center;
+	line-height: normal;
+
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	height: 50px;
+
+}
+.logo img{
+	width: 150px;
+	height: 50px;
+}
+
+
+.navigation img{
+	width: 20px;
+	height: 20px;
+	padding-top: 3px;
+	
+}
+.navigation {
+	margin-right: 2%;
+	float: right;
+
+}
+.navigation button{
+	background-color: blue;
+	border-radius: 15%;
+	width: 65px;
+	height: 40px;
+	color: white;
+}
+
+
+
+input{
+	width: 65%;
+	height: 45px;
+	margin-right: 10%;
+	padding: 0;
+	border-radius: 3%;
+	box-shadow:0 0px 2px 0 rgba(0,0,0,0.1);
+}
+
+#option ul {
+    list-style-type: none;
+    margin: 3% 0 0 -10px;
+    padding-top: 15px;
+    width: 50%;
+    
+
+}
+#option li {
+	display: inline;
+	padding-left: 3%;
+}
+
+.optionr{
+	    float: right;
+	    display: inline;
+	    margin-top: -2%;
+	    margin-right: 20%;
+   				
+}
+.optionl li {
+	padding-right: 2%;
+}
+
+.optionl{
+	display: inline;
+}
+
+.main{
+	
+	padding: 0 16% 0 16%;
+}
+.main p{
+	font-family: arial,sans-serif;
+	font-size: small;
+	color: black;
+}
+
+.main div {
+	margin-top: 5%;
+	padding:0;
+	line-height: 10px;
+	font-family: arial,sans-serif
+
+}
+cite {
+	color: green;
+}
+
+.related{
+	margin-top: 5%;
+	padding: 0 20% 0 16%;
+	
+
+}
+.relatedr {
+	margin-right:50%;
+	text-align: left;
+	position:absolute;
+	margin-top: -10%;
+	margin-left:20%;
+	z-index: -2;
+	/* use it instead of float becasue the next div was entering on the relatedr div */	
+}
+.foot{
+	margin-top: 15%;
+	margin-left: 20%;
+}
