@@ -104,19 +104,42 @@ cite {
 .related{
 	margin-top: 5%;
 	padding: 0 20% 0 16%;
-	
 
 }
-.relatedr {
-	margin-right:50%;
-	text-align: left;
-	position:absolute;
-	margin-top: -10%;
-	margin-left:20%;
-	z-index: -2;
-	/* use it instead of float becasue the next div was entering on the relatedr div */	
+
+.related td{
+	padding-right: 15%;
 }
+
 .foot{
-	margin-top: 15%;
-	margin-left: 20%;
+	margin-top: 5%;
+	margin-left: 30%;
 }
+.nav_start {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -24px 0;
+	background-size: 167px;
+	width: 28px;
+	display: block;
+	height: 40px;
+	margin-bottom: 15px;
+}
+.nav_o{
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -74px 0;
+	background-size: 167px;
+	width: 20px;
+	height: 40px;
+	display: block
+}
+.nav_rest{
+
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -96px 0;
+	background-size: 167px;
+	width: 71px;
+	height: 40px;
+	display: block;
+	margin-bottom: 22%;
+}
+
