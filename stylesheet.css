@@ -1,8 +1,8 @@
 header{
 
 	width:100%;
-	border-bottom: solid black;
-	padding: 1% 0 5% 0;
+	border-bottom: solid #e8e9ea 3px ;
+	padding: 1% 0 1% 0;
 	margin: 1px;
 	position: relative;
 	text-align: center;
@@ -34,7 +34,7 @@ header{
 
 }
 .navigation button{
-	background-color: blue;
+	background-color: #4285f4;
 	border-radius: 15%;
 	width: 65px;
 	height: 40px;
@@ -52,32 +52,48 @@ input{
 	box-shadow:0 0px 2px 0 rgba(0,0,0,0.1);
 }
 
-#option ul {
+.option ul {
     list-style-type: none;
     margin: 3% 0 0 -10px;
     padding-top: 15px;
-    width: 50%;
-    
+    width: 50%; 
 
 }
-#option li {
+
+.option a{
+	color: grey
+}
+.option li {
 	display: inline;
 	padding-left: 3%;
-}
 
+}
+.optionr li{
+	padding-right: 2%;
+}
+.optionr ul{padding-top: 0;
+	padding-right: 1%;
+
+
+}
+.optionl ul{
+	padding-left: 0;
+}
 .optionr{
-	    float: right;
-	    display: inline;
-	    margin-top: -2%;
-	    margin-right: 20%;
+	    /*float: right;
+	    display: inline;*/
+	    margin-top: -3%;
+	    margin-left: 55%;
+	    text-align: right;
    				
 }
 .optionl li {
-	padding-right: 2%;
+	padding-right: 1%;
 }
 
 .optionl{
-	display: inline;
+	/*display: inline;*/
+	margin-left: 10%;
 }
 
 .main{
@@ -143,3 +159,18 @@ cite {
 	margin-bottom: 22%;
 }
 
+footer{
+	margin-top: 5%;
+	background-color: #e8e9ea;
+	width: 100%;
+	padding-left: 15%
+
+}
+footer a {
+	padding-left: 5%;
+	color:grey;
+}
+
+a:link {
+	text-decoration: none;
+}
